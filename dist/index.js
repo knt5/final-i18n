@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.isInitialized = exports.setLocale = exports.getLocale = exports.init = exports.getT = exports.useTranslation = void 0;
+var i18n_1 = require("./lib/i18n");
+Object.defineProperty(exports, "useTranslation", { enumerable: true, get: function () { return i18n_1.useTranslation; } });
+Object.defineProperty(exports, "getT", { enumerable: true, get: function () { return i18n_1.getT; } });
+var store_1 = require("./lib/store");
+Object.defineProperty(exports, "init", { enumerable: true, get: function () { return store_1.init; } });
+Object.defineProperty(exports, "getLocale", { enumerable: true, get: function () { return store_1.getLocale; } });
+Object.defineProperty(exports, "setLocale", { enumerable: true, get: function () { return store_1.setLocale; } });
+Object.defineProperty(exports, "isInitialized", { enumerable: true, get: function () { return store_1.isInitialized; } });

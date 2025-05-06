@@ -1,0 +1,24 @@
+{
+  "name": "final-i18n",
+  "version": "0.1.0",
+  "description": "A tiny i18n library for React Native",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knt5/final-i18n.git"
+  },
+  "keywords": [
+    "i18n",
+    "react"
+  ],
+  "author": "knt5",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^19.1.2",
+    "typescript": "^5.8.3"
+  }
+}
