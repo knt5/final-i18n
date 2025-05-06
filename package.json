@@ -1,6 +1,6 @@
 {
   "name": "final-i18n",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A tiny i18n library for React Native",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
